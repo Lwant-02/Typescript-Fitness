@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-20: #f8f4eb;
+  --color-gray-50: #efe6e6;
+  --color-gray-100: #dfcccc;
+  --color-gray-500: #5e0000;
+  --color-primary-100: #eee1e0;
+  --color-primary-300: #ffa6a3;
+  --color-primary-500: #ff6b66;
+  --color-secondary-400: #ffcd58;
+  --color-secondary-500: #ffc132;
+  --color-gradient-yello: linear-gradient(90deg, #ff616a 0%, #ffc837 100%);
+
+  --font-dmsan: "DM Sans", "sans-serif";
+  --font-mont: "Montserrat", "sans-serif";
+}
+
+html,
+body,
+#root,
+.app {
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
